@@ -1,17 +1,19 @@
 import React from "react";
-import Navbar from "./components/Navbar":
+import NavBar from "./components/NavBar";
 import Home from "./components/Home";
 import Escola from "./components/Escola";
 import SobreMim from "./components/SobreMim";
+import Footer from "./components/Footer";
 import "./index.css";
 
 export default function App() {
   return(
     <div className='font-sans'>
-      <Navbar />
+      <NavBar />
       <Home />
       <Escola />
       <SobreMim />
+      <Footer />
     </div>
   );
 }
